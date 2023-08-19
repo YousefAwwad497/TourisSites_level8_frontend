@@ -1,0 +1,186 @@
+	p{
+		font-size: 25px;
+	}
+	
+	header{
+		padding-top: 15px;
+		padding-right: 15px;
+		position: sticky;
+		display: flex;
+		margin: 10px;
+	}
+
+	header input{
+		width: 62%;
+		margin-left: 1em;
+		margin-right: 1em;
+		height: 65px;
+		margin-top: 40px;
+	}
+
+	nav{
+		background-color:#3F7C88;
+		float: center;
+		max-width: 100%;
+		margin-top: 20px;
+		padding-left: 20px;
+		position: sticky;
+		opacity: 0.9;
+		padding: 0 0;
+		text-align: center;
+		border-radius: 10px 10px;
+		height: 80px;
+	}
+
+		nav a {
+		display: inline-block;
+		color: #d2e2e2;
+		padding: 15px 30px;
+		text-decoration: none;
+		font-size: 25px;
+		text-align: center;
+		}
+
+		nav a:hover {
+		background-color:#A5DBDC;
+		color: black;
+		border-radius: 10px 100px;
+		}
+
+		nav ul{
+		 margin: 0;
+		 padding: 0;
+		 list-style: none;
+		}
+
+		nav li{
+			display: inline-block;
+			padding: 10px;
+			font-size: 1.3em;
+		}
+
+		.logo{
+			width: 111%;
+			height: 400px;
+			border-radius: 10px 10px;
+		}
+
+		#item{
+			width: 178%;
+			height: 450px;
+			border-radius: 10px 10px;
+		}
+
+		.card h5{
+			font-size: 25px;
+			color: #3F7C88;
+		}
+
+		#linktext{
+		margin-right: 1em;
+		margin-left: 1.5em;
+		font-size: 1.3em;
+		position: relative;
+		top: 55px;
+		display: inline-block;
+		}
+
+	.card{
+	text-align: center;
+	padding: 20px;
+	float: left;
+	}
+
+	.card-img-top{
+	height: 300px;
+	width: 300px;
+	border-radius: 10px 10px;
+	}
+
+	h1{
+		color: #3F7C88;
+	}
+
+	#divs h2{
+		color: #3F7C88;
+	}
+
+	#divs li{
+		font-size: 20px;
+	}
+
+	#login label{
+		font-size: 20px;
+		color: #3F7C88;
+	}
+
+	#login input{
+		border-radius: 10px 10px;
+		border: #3F7C88 solid;
+		height: 25px;
+		width: 300px;
+		font-size: 20px;
+	}
+
+	#login button{
+		border-radius: 10px 10px;
+		border: #3F7C88 solid;	
+		height: 40px;
+		width: 150px;
+		font-size: 20px;
+		background-color: #3F7C88;
+		color: #d2e2e2;
+	}
+
+	#img{
+		border-radius: 10px 10px;	
+	}
+
+		#grids_footer{
+		display: grid;
+		grid-template-columns: repeat(4, 1fr);
+		  width:100% ;
+		  grid-template-areas: 
+	    "box1 box2 box2 box3"
+	    "box4 box4 box4 box4" ;
+		}
+
+		#About_us{
+			grid-area: box1;
+			background-color: #3F7C88;
+			border-color: #3F7C88;
+		}
+
+		#Contact{
+			grid-area: box2;
+			background-color: #3F7C88;
+			border-color: #3F7C88;
+		}
+
+		#Follow_us{
+		grid-area: box3;
+		background-color: #3F7C88;
+		border-color: #3F7C88;
+		}
+
+		#Follow_us img{
+			height: 50px;
+			width: 50px;
+			margin: 3px;
+		}
+
+		#End{
+		    height: 8vh;
+			grid-area: box4;
+			background-color: #A5DBDC;
+			border-color: #A5DBDC;
+			color: black;
+		}
+
+		#grids_footer h2{
+			color: white;
+		}
+
+		#grids_footer p{
+			font-size: 20px;
+		}
